@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title></title> 
+    <link rel="stylesheet" href="styles.css"> 
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 20px;
+            background-image: url('pngtree.jpg'); 
+            background-size: cover; 
+            background-position: center; 
+            font-family: Arial, sans-serif;
+            box-sizing: border-box;
+        }
+
+        .container {
+            display: grid;
+            grid-template-areas: 
+                "top-left top-right"
+                "button button"
+                "bottom-left bottom-right"
+                ". bottom-text";
+            gap: 20px;
+            text-align: center;
+            position: relative; 
+        }
+
+        .box {
+            width: 150px;
+            height: 200px;
+            border: 2px solid white;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .box-top-left {
+            grid-area: top-left;
+        }
+
+        .box-bottom-right {
+            grid-area: bottom-right;
+        }
+
+        .text {
+            color: white;
+            background-color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            font-size: 14px;
+            line-height: 1.6;
+            text-align: left;
+        }
+
+        .text-top-right {
+            grid-area: top-right;
+        }
+
+        .text-bottom-left {
+            grid-area: bottom-left;
+        }
+
+        .text-bottom {
+            grid-area: bottom-text;
+            position: absolute;
+            bottom: 50px; 
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            padding: 10px; 
+            font-size: 12px; 
+            line-height: 1.4; 
+        }
+
+        .button {
+            grid-area: button;
+            padding: 10px 20px;
+            font-size: 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: white;
+            color: black;
+            margin: auto;
+        }
+    </style> 
+</head> 
+<body> 
+    <audio autoplay>
+        <source src="tiktok.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <div class="container"> 
+        <div class="box box-top-left"> 
+            <img src="kes.jpg" alt="Image 1"> 
+        </div> 
+        <div class="text text-top-right">
+            berantem baikan, berantem baikan, berantem lagi baikan lagi, eh taunya udah satu tahun bareng kamu, tetap sama sama yaa sayanggg jadi keinget kata-kata ini " lewati badainya, jangan ganti orangnya" sampai bertahun tahun berikutnya
+        </div> 
+        <a href="https://vt.tiktok.com/ZS6vpeHoU/" class="button">PENCET</a>
+        <div class="text text-bottom-left">
+            Happy anniversary Sayang, gak kerasa ya kita udah sejauh ini jalan sama sama, semoga kita bisa terus bareng bareng ya, makasih ya kamu udah jadi rumah ternyamanku saat ini, makasih juga kamu udah jadi pasangan terbaik, semoga apapun yang kita rencanakan bisa tercapai sama sama aminn maaf ya kalo aku masih ada kurang kurangnya, tapi kamu jangan khawatir aku terus berusaha menjadi pasangan yang terbaik buat kamu dan semoga kita adalah orang yang sama sama takut akan kehilangan ya, pokonya aku seneng banget kamu telah hadir dikehidupanku, love u
+        </div> 
+        <div class="box box-bottom-right"> 
+            <img src="WhatsApp Image 2025-01-30 at 01.21.25_db8f16b9.jpg" alt="Image 2"> 
+        </div> 
+        <div class="text text-bottom">
+            HAPPY ANIVERSARY SAYANGGG
+        </div> 
+    </div> 
+</body>
+</html>
